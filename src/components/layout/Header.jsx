@@ -50,7 +50,7 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <BookOpenCheck className="h-8 w-8 text-primary" />
-          <span className="text-2xl font-bold gradient-text">Física Aplicada Pro</span>
+          <span className="hidden lg:inline text-2xl font-bold gradient-text">Física Aplicada Pro</span>
         </Link>
         <nav className="flex items-center space-x-6">
           <Button variant="noHover" asChild className="p-0">
